@@ -1,0 +1,56 @@
+html{
+    scroll-behavior: smooth;
+}
+
+body {
+    font-family: Arial, sans-serif;
+  }
+  .navbar {
+    background-color: rgb(197, 33, 91);
+    overflow: hidden;
+    margin-left: 5px;
+    margin-right:5px;
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    padding: 15px 19px;
+    font-size: 20px;
+  }
+  
+  .navbar a:hover {
+    background-color: #ffffff;
+    color: black;
+  }
+  
+  h1 {
+    text-align: center;
+    color: black;
+  }
+
+  h2 {
+    padding-bottom: 5px;
+    color: rgb(197, 33, 91);
+    font-size: 25px;
+  }
+  
+  .hero-image {
+    background-image: url('./ju.png');
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin-left: 80px;
+    margin-right:80px;
+    display:flex;
+  }
+
+  footer {
+    background-color: rgb(255, 255, 255);
+    color: rgb(197, 33, 91);
+    padding: 10px;
+    text-align: center;
+    font-size: 12px;
+  }
